@@ -7,7 +7,7 @@ let chatStyles = {
     overFlowy: 'scroll'
 }
 
-export class Chat extends React.Component {
+export class ChatClass extends React.Component {
     state = {messages: []}
     socket = null
 

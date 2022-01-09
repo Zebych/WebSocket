@@ -1,0 +1,12 @@
+.message img{
+    width: 30px;
+}
+.messages{
+    height: 400px;
+    overflow-y: auto;
+}
+.chat{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}

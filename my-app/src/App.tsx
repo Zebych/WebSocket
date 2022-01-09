@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Chat} from "./ui/chat";
+import {ChatClass} from "./ui/ChatClass";
+import {ChatHooks} from "./ui/ChatHooks";
+import ChatOnHooks from "./ui/chatOnHooks/chatOnHooks";
 
 function App() {
     return (
         <div className="App">
-            <Chat/>
+          {/*  <ChatClass/>
+            <ChatHooks/>*/}
+            <ChatOnHooks/>
         </div>
     );
 }
